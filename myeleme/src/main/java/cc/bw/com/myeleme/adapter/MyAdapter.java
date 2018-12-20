@@ -30,7 +30,6 @@ public class MyAdapter extends RecyclerView.Adapter {
     private Context context;
     private MyHolder myHolder;
     private Boolean myIf;
-    private Myonc myonc;
 
 
     public MyAdapter(ArrayList<MyData> mdata, Context context) {
