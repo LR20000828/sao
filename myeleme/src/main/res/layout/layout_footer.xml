@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:padding="22dp"
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="合计:"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"/>
+    <TextView
+        android:text="0.00"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:layout_toRightOf="@id/one"
+        android:layout_centerVertical="true"
+        android:id="@+id/sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_toLeftOf="@id/sumt"
+        android:background="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete"
+        android:text="删除"
+        android:layout_centerVertical="true"/>
+    <Button
+        android:id="@+id/sumt"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结算"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>
